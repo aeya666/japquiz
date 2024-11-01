@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>hiragana dan katakana</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="quiz-container">
+    <h1>Hiragana & Katakana</h1>
+    
+  <div id="imageModal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="hiraganaKatakanaImage">
+  </div>
+    
+    <label for="quiz-type">pilih kuis:</label>
+    <select id="quiz-type">
+      <option value="hiragana">Hiragana</option>
+      <option value="katakana">Katakana</option>
+    </select>
+    
+    <div id="quiz-content">
+      <p id="question">pencet mulai</p>
+      <input type="text" id="answer" placeholder="Type your answer here" />
+      <button id="submit-answer">masukin</button>
+    </div>
+    
+    <button id="start-quiz">MULAI</button>
+
+    <p id="correct-count">benar: 0</p>
+    <p id="wrong-count">salah: 0</p>
+    
+    <p id="result"></p>
+  </div>
+  
+  <button id="show-hiragana-katakana">gambar katakana dan hiragana</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
