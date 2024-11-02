@@ -4,7 +4,7 @@ const hiragana = [
   { char: 'う', romanji: 'u' },
   { char: 'え', romanji: 'e' },
   { char: 'お', romanji: 'o' },
-]; // belum lengkap
+]; // MALAS
 
 const katakana = [
   { char: 'ア', romanji: 'a' },
@@ -12,7 +12,7 @@ const katakana = [
   { char: 'ウ', romanji: 'u' },
   { char: 'エ', romanji: 'e' },
   { char: 'オ', romanji: 'o' },
-]; // belum lengkap
+]; // MALAS
 
 let currentQuestion = {};
 let currentType = 'hiragana';
