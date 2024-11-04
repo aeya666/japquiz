@@ -45,8 +45,6 @@ const hiragana = [
   { char: 'わ', romanji: 'wa' },
   { char: 'を', romanji: 'wo' },
   { char: 'ん', romanji: 'n' }
-]
-
 ]; // MALAS
 
 const katakana = [
