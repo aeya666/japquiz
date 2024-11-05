@@ -45,7 +45,7 @@ const hiragana = [
   { char: 'わ', romanji: 'wa' },
   { char: 'を', romanji: 'wo' },
   { char: 'ん', romanji: 'n' }
-]; // MALAS
+];
 
 const katakana = [
   { char: 'ア', romanji: 'a' },
@@ -53,7 +53,7 @@ const katakana = [
   { char: 'ウ', romanji: 'u' },
   { char: 'エ', romanji: 'e' },
   { char: 'オ', romanji: 'o' },
-]; // MALAS
+]; // kana
 
 let currentQuestion = {};
 let currentType = 'hiragana';
